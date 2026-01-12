@@ -19,4 +19,4 @@ map({ "n", "o", "x" }, "ü", "}", { desc = "Jump down paragraph" })
 
 -- Exit terminal mode using your "jj" shortcut (Highly Recommended)
 ---- Exit terminal mode using your "jj" shortcut
-map("t", "jj", [[<c-\><c-n>]], { desc = "exit terminal mode" })
+map("t", "<Esc><Esc>", [[<C-\><C-n>]], { desc = "Double Esc to exit terminal" })
