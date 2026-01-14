@@ -18,7 +18,8 @@ return {
       },
     },
     opts = {
-      suggestions = { enable = true },
+      suggestion = { enabled = true },
+      panel = { enabled = true },
       mappings = {
         -- Fix: Unmap 'reset' so Ctrl+l works for window navigation
         reset = {
