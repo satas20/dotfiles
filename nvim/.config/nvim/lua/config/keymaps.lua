@@ -20,3 +20,7 @@ map({ "n", "o", "x" }, "ü", "}", { desc = "Jump down paragraph" })
 -- Exit terminal mode using your "jj" shortcut (Highly Recommended)
 ---- Exit terminal mode using your "jj" shortcut
 map("t", "<Esc><Esc>", [[<C-\><C-n>]], { desc = "Double Esc to exit terminal" })
+
+-- 4. Scroll and Center
+map("n", "<C-u>", "<C-u>zz", { desc = "Half page up and center" })
+map("n", "<C-d>", "<C-d>zz", { desc = "Half page down and center" })

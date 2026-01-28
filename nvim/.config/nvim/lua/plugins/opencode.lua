@@ -58,7 +58,7 @@ return {
         require("opencode").command("session.half.page.up")
       end,
       desc = "OpenCode: Scroll Up",
-      mode = { "t", "n" }, -- Works in Terminal (Insert) and Normal mode
+      mode = { "t" }, -- Works in Terminal (Insert)
     },
     {
       "<c-d>",
@@ -66,7 +66,7 @@ return {
         require("opencode").command("session.half.page.down")
       end,
       desc = "OpenCode: Scroll Down",
-      mode = { "t", "n" },
+      mode = { "t" },
     },
   },
   config = function()
