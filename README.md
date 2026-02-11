@@ -18,6 +18,10 @@ Personal configuration files for Omarchy Linux (Arch + Hyprland).
   - Catppuccin Mocha theme
   - Turkish keyboard split bindings
   - Vi copy mode
+- **fish/** - Fish shell configuration
+  - Starship prompt integration
+  - Go path setup (GOPATH)
+  - Custom functions and abbreviations
 
 ## Setup
 
@@ -32,6 +36,7 @@ Personal configuration files for Omarchy Linux (Arch + Hyprland).
    stow hypr
    stow nvim
    stow tmux
+   stow fish
    ```
 
 3. Install tmux plugins (inside tmux):
@@ -56,5 +61,5 @@ Personal configuration files for Omarchy Linux (Arch + Hyprland).
 - OS: Omarchy Linux (Arch-based)
 - WM: Hyprland
 - Terminal: Kitty
-- Shell: Bash (migrating to Zsh later)
+- Shell: Fish
 - Editor: Neovim (LazyVim)
