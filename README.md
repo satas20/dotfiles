@@ -56,6 +56,14 @@ Personal configuration files for Omarchy Linux (Arch + Hyprland).
 - **Floating Terminal**: Super+Shift+Return for quick terminal access
 - **Tmux Leader**: Changed from default Ctrl+b to Ctrl+s
 
+## For Developers
+
+See [AGENTS.md](AGENTS.md) for:
+- Code style guidelines and formatting rules
+- Manual validation commands for each config
+- Git commit conventions
+- Common tasks and troubleshooting
+
 ## System Info
 
 - OS: Omarchy Linux (Arch-based)
