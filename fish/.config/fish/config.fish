@@ -11,3 +11,4 @@ function apr
 end
 abbr -a crpr '~/Projects/bash/create-pr.sh'
 abbr -a appr '~/Projects/bash/approvePR.sh'
+abbr -a mgpr '~/Projects/bash/mergePR.sh'
